@@ -27,6 +27,19 @@ item_sub_category = '$item_sub_category', quantity = '$quantity' WHERE id = $id"
 
 }
 ?>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/updateitem.css">
+</head>
+<body>
+   <table> 
+    
+   <h2>Item List</h2>
 <form action="item_edit.php" method="POST"> <input type="hidden" name="id" value="<id>">
 
     <div class="form-group">
@@ -69,7 +82,11 @@ item_sub_category = '$item_sub_category', quantity = '$quantity' WHERE id = $id"
     </div>
         <button type="submit" class="btn btn-primary">Update</button>
 </form>
+</table>
 
+
+</body>
+</html>
 
 
 
